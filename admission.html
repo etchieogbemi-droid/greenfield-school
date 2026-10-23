@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions | Greenfield School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <a href="index.html" class="brand">
+        <div class="logo">G</div>
+        <div>
+            <h1>GREENFIELD SCHOOL</h1>
+            <p>Knowledge • Character • Excellence</p>
+        </div>
+    </a>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="school.html">Our School</a>
+    <a href="admission.html" class="nav-button active">Admissions</a>
+</nav>
+</header>
+<main>
+    <section class="page-hero">
+        <span class="eyebrow">JOIN OUR COMMUNITY</span>
+        <h2>Admissions at Greenfield School</h2>
+        <p>
+            Complete the enquiry form below. Our admissions team can follow
+            up with you about entry requirements and available places.
+        </p>
+    </section>
+<section class="section admission-layout">
+    <div class="admission-info">
+        <span class="eyebrow">YOUR CHILD'S NEXT CHAPTER</span>
+        <h2>Let's Begin the Journey</h2>
+        <p>
+            We welcome enquiries from parents and guardians who are
+            interested in joining the Greenfield School community.
+        </p>
+        <div class="info-item">
+            <div class="info-icon">01</div>
+            <div>
+                <h3>Complete the Form</h3>
+                <p>Provide your contact information and the class you are enquiring about.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">02</div>
+            <div>
+                <h3>Send Your Enquiry</h3>
+                <p>Choose WhatsApp or email to open a message containing your details.</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">03</div>
+            <div>
+                <h3>Speak With Admissions</h3>
+                <p>The school can discuss available places and the next steps with you.</p>
+            </div>
+        </div>
+        <div class="notice-box">
+            <strong>Please note:</strong>
+            This online form prepares a message for you to send. It does
+            not automatically save an application to a school database.
+        </div>
+    </div>
+    <div class="form-card">
+        <h2>Admission Enquiry Form</h2>
+        <p class="form-description">Fields marked * are required.</p>
+        <form id="admissionForm">
+            <div class="form-group">
+                <label for="parentName">Parent/Guardian Full Name *</label>
+                <input
+                    type="text"
+                    id="parentName"
+                    name="parentName"
+                    placeholder="Enter your full name"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="childName">Child's Name</label>
+                <input
+                    type="text"
+                    id="childName"
+                    name="childName"
+                    placeholder="Enter the child's name (optional)"
+                >
+            </div>
+            <div class="form-group">
+                <label for="entryClass">Class of Interest *</label>
+                <select id="entryClass" name="entryClass" required>
+                    <option value="">Select a class</option>
+                    <option>Nursery 1</option>
+                    <option>Nursery 2</option>
+                    <option>Nursery 3</option>
+                    <option>Primary 1</option>
+                    <option>Primary 2</option>
+                    <option>Primary 3</option>
+                    <option>Primary 4</option>
+                    <option>Primary 5</option>
+                    <option>Primary 6</option>
+                    <option>JSS 1</option>
+                    <option>JSS 2</option>
+                    <option>JSS 3</option>
+                    <option>SS 1</option>
+                    <option>SS 2</option>
+                    <option>SS 3</option>
+                    <option>Not sure yet</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="entryDescription">Tell Us About Your Enquiry *</label>
+                <textarea
+                    id="entryDescription"
+                    name="entryDescription"
+                    rows="5"
+                    placeholder="For example, preferred resumption date or questions about admission..."
+                    required
+                ></textarea>
+            </div>
+            <button type="button" id="whatsappButton" class="button full-button">
+                Send Enquiry via WhatsApp
+            </button>
+            <button type="button" id="emailButton" class="button email-button full-button">
+                Send Enquiry via Email
+            </button>
+            <p class="privacy-note">
+                Your messaging or email app will open with the enquiry
+                details filled in. Review the message and press Send.
+            </p>
+            <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+    </div>
+</section>
+</main>
+<footer class="site-footer">
+    <h3>GREENFIELD SCHOOL</h3>
+    <p>Knowledge • Character • Excellence</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="school.html">Our School</a>
+        <a href="admission.html">Admissions</a>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Greenfield School. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
