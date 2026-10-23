@@ -3,646 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Greenfield International School</title>
-
-    <meta name="description"
-        content="Greenfield International School - Building Character, Inspiring Excellence and Shaping the Future.">
-
+    <title>Greenfield School | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<!-- TOP BAR -->
-<div class="top-bar">
-    <div class="container top-content">
-        <span>Admissions for 2026/2027 Session Now Open</span>
-        <span>Mon – Fri: 8:00am – 4:00pm | +234 800 000 0000</span>
-    </div>
-</div>
-
-
-<!-- NAVIGATION -->
-<header>
-    <div class="container nav">
-
-        <a href="#home" class="logo">
-            <span class="logo-mark">G</span>
-
-            <span>
-                GREENFIELD
-                <small>INTERNATIONAL SCHOOL</small>
-            </span>
-        </a>
-
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#academics">Academics</a>
-            <a href="#admissions">Admissions</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a href="#admissions" class="nav-button">
-            Apply Now
-        </a>
-
-        <button class="menu-button" id="menuButton">
-            ☰
-        </button>
-
-    </div>
-
-    <div class="mobile-menu" id="mobileMenu">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#academics">Academics</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#contact">Contact</a>
-    </div>
+<header class="site-header">
+    <a href="index.html" class="brand">
+        <div class="logo">G</div>
+        <div>
+            <h1>GREENFIELD SCHOOL</h1>
+            <p>Knowledge • Character • Excellence</p>
+        </div>
+    </a>
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="school.html">Our School</a>
+    <a href="admission.html" class="nav-button">Admissions</a>
+</nav>
 </header>
-
-
-<!-- HERO -->
-<section class="hero" id="home">
-
-    <div class="container">
-
+<main>
+    <section class="hero">
         <div class="hero-content">
-
-            <span class="eyebrow">
-                WELCOME TO GREENFIELD
-            </span>
-
-            <h1>
-                Where Learning Becomes
-                a Lifetime Advantage.
-            </h1>
-
+            <span class="eyebrow">WELCOME TO GREENFIELD</span>
+            <h2>Building Bright Minds for a Better Tomorrow</h2>
             <p>
-                A nurturing school community combining academic
-                excellence, character development and practical
-                learning to prepare confident young people for
-                the future.
+                We provide a supportive learning environment where every child
+                is encouraged to discover their potential, develop confidence,
+                and achieve academic excellence.
             </p>
-
-            <div class="hero-buttons">
-
-                <a href="#admissions" class="button gold">
-                    Begin Admission
-                </a>
-
-                <a href="#about" class="button white">
-                    Explore Our School
-                </a>
-
-            </div>
-
+            <a href="admission.html" class="button">Apply for Admission</a>
+            <a href="school.html" class="button button-outline">Explore Our School</a>
         </div>
-
-    </div>
-
+    </section>
+<section class="intro section">
+    <span class="eyebrow">OUR MOTTO</span>
+    <h2>Knowledge, Character and Excellence</h2>
+    <p>
+        At Greenfield School, we combine quality teaching, discipline,
+        creativity and practical learning to prepare students for the
+        opportunities and challenges of the future.
+    </p>
 </section>
-
-
-<!-- STATISTICS -->
+<!-- 10-PHOTO SLIDESHOW -->
+<section class="section slideshow-section">
+    <div class="section-heading">
+        <span class="eyebrow">LIFE AT GREENFIELD</span>
+        <h2>Learning, Growing and Achieving Together</h2>
+        <p>Explore moments from our learning community.</p>
+    </div>
+    <div class="slideshow">
+        <img
+            id="slideImage"
+            src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=85"
+            alt="Students learning in a classroom"
+        >
+        <button class="slide-control previous" onclick="changeSlide(-1)" aria-label="Previous photo">&#10094;</button>
+        <button class="slide-control next" onclick="changeSlide(1)" aria-label="Next photo">&#10095;</button>
+        <div class="slide-caption" id="slideCaption">Learning Together</div>
+    </div>
+    <div class="slide-dots" id="slideDots"></div>
+</section>
+<!-- SCHOOL STATISTICS -->
 <section class="stats">
-
-    <div class="container stats-grid">
-
-        <div class="stat">
-            <strong>15+</strong>
-            <span>Years of Excellence</span>
-        </div>
-
-        <div class="stat">
-            <strong>500+</strong>
-            <span>Students</span>
-        </div>
-
-        <div class="stat">
-            <strong>40+</strong>
-            <span>Dedicated Staff</span>
-        </div>
-
-        <div class="stat">
-            <strong>98%</strong>
-            <span>Parent Satisfaction</span>
-        </div>
-
+    <div>
+        <h2>850+</h2>
+        <p>Learners</p>
     </div>
-
-</section>
-
-
-<!-- ABOUT -->
-<section id="about">
-
-    <div class="container about">
-
-        <div class="about-image">
-            <img
-                src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1000&q=85"
-                alt="Students learning in a classroom">
-        </div>
-
-        <div class="about-content">
-
-            <span class="section-label">
-                ABOUT US
-            </span>
-
-            <h2>
-                Education with purpose,
-                care and ambition.
-            </h2>
-
-            <p>
-                Greenfield International School provides a
-                supportive environment where children are
-                challenged to think, encouraged to ask questions
-                and guided to become responsible members of society.
-            </p>
-
-            <div class="ticks">
-
-                <div>
-                    <span>✓</span>
-                    Qualified and caring teachers
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Safe and supportive learning environment
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Strong academic foundation
-                </div>
-
-                <div>
-                    <span>✓</span>
-                    Leadership, sports and creative activities
-                </div>
-
-            </div>
-
-        </div>
-
+    <div>
+        <h2>65+</h2>
+        <p>Teachers and Staff</p>
     </div>
-
+    <div>
+        <h2>15+</h2>
+        <p>Years of Learning</p>
+    </div>
+    <div>
+        <h2>100%</h2>
+        <p>Commitment to Growth</p>
+    </div>
 </section>
-
-
 <!-- ACADEMICS -->
-<section class="light-section" id="academics">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">
-                ACADEMICS
-            </span>
-
-            <h2>
-                Programmes designed
-                for every stage.
-            </h2>
-
-            <p>
-                Our curriculum combines academic knowledge with
-                communication, creativity, problem-solving and
-                character development.
-            </p>
-
-        </div>
-
-
-        <div class="cards">
-
-            <div class="card">
-
-                <div class="icon">
-                    🌱
-                </div>
-
-                <h3>
-                    Early Years & Primary
-                </h3>
-
-                <p>
-                    Strong foundations in literacy, numeracy,
-                    science, creativity and positive learning habits.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    📚
-                </div>
-
-                <h3>
-                    Junior Secondary
-                </h3>
-
-                <p>
-                    A broad curriculum that develops independent
-                    thinking, discipline and confidence.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <div class="icon">
-                    🎓
-                </div>
-
-                <h3>
-                    Senior Secondary
-                </h3>
-
-                <p>
-                    Focused preparation for external examinations,
-                    university and future career opportunities.
-                </p>
-
-            </div>
-
-        </div>
-
+<section class="section">
+    <div class="section-heading">
+        <span class="eyebrow">WHAT WE OFFER</span>
+        <h2>Education Beyond the Classroom</h2>
+        <p>We support academic achievement, creativity and personal development.</p>
     </div>
-
+    <div class="card-grid">
+        <article class="card">
+            <div class="card-icon">01</div>
+            <h3>Academic Excellence</h3>
+            <p>
+                Engaging lessons, guided practice and assessments help
+                students develop strong foundations in essential subjects.
+            </p>
+        </article>
+        <article class="card">
+            <div class="card-icon">02</div>
+            <h3>STEM Education</h3>
+            <p>
+                Science, technology, engineering and mathematics encourage
+                curiosity, critical thinking and problem-solving.
+            </p>
+        </article>
+        <article class="card">
+            <div class="card-icon">03</div>
+            <h3>Creative Arts</h3>
+            <p>
+                Students explore their talents through art, music,
+                presentations and creative activities.
+            </p>
+        </article>
+        <article class="card">
+            <div class="card-icon">04</div>
+            <h3>Sports and Wellbeing</h3>
+            <p>
+                Physical activities encourage teamwork, discipline,
+                confidence and healthy development.
+            </p>
+        </article>
+    </div>
+    <div class="center-button">
+        <a href="school.html" class="button">View Classes and Subjects</a>
+    </div>
 </section>
-
-
-<!-- PRINCIPAL -->
-<section>
-
-    <div class="container principal">
-
-        <div>
-
-            <img
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=900&q=85"
-                alt="School principal">
-
-        </div>
-
-        <div>
-
-            <span class="section-label">
-                PRINCIPAL'S MESSAGE
-            </span>
-
-            <p class="quote">
-                “Every child has a unique potential. Our
-                responsibility is to provide the knowledge,
-                confidence and values that help that potential flourish.”
-            </p>
-
-            <p>
-                At Greenfield, we work closely with families to
-                create a learning experience that is both
-                challenging and caring.
-            </p>
-
-            <p class="signature">
-                — Dr. Amara Okafor, Principal
-            </p>
-
-        </div>
-
+<!-- TESTIMONIAL -->
+<section class="testimonial-section">
+    <div class="testimonial">
+        <span class="eyebrow">OUR SCHOOL COMMUNITY</span>
+        <h2>A Place Where Children Can Thrive</h2>
+        <p class="quote">
+            “A good school does more than teach lessons. It helps children
+            become confident, responsible and curious learners.”
+        </p>
+        <p class="quote-author">— Greenfield School Community</p>
     </div>
-
 </section>
-
-
-<!-- ADMISSIONS -->
-<section class="admission-section" id="admissions">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label light-label">
-                ADMISSIONS
-            </span>
-
-            <h2>
-                Take the first step toward
-                a brighter future.
-            </h2>
-
-            <p>
-                Our admissions team is available to guide parents
-                through the application process.
-            </p>
-
-        </div>
-
-
-        <div class="steps">
-
-            <div class="step">
-
-                <div class="step-number">
-                    1
-                </div>
-
-                <h3>
-                    Make an Enquiry
-                </h3>
-
-                <p>
-                    Contact our admissions team and learn about
-                    available classes.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    2
-                </div>
-
-                <h3>
-                    Apply
-                </h3>
-
-                <p>
-                    Complete the application form and submit the
-                    required information.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    3
-                </div>
-
-                <h3>
-                    Assessment
-                </h3>
-
-                <p>
-                    Students complete an age-appropriate assessment
-                    where applicable.
-                </p>
-
-            </div>
-
-
-            <div class="step">
-
-                <div class="step-number">
-                    4
-                </div>
-
-                <h3>
-                    Enrollment
-                </h3>
-
-                <p>
-                    Complete registration and get ready for the
-                    new school session.
-                </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="center-button">
-
-            <a href="#contact" class="button gold">
-                Talk to Admissions
-            </a>
-
-        </div>
-
+<!-- AWARDS AND ACCREDITATION -->
+<section class="section">
+    <div class="section-heading">
+        <span class="eyebrow">OUR COMMITMENT</span>
+        <h2>Quality, Standards and Recognition</h2>
     </div>
-
+    <div class="card-grid three-columns">
+        <article class="card recognition-card">
+            <h3>Academic Development</h3>
+            <p>
+                We aim to strengthen students' knowledge, study habits
+                and readiness for their next stage of education.
+            </p>
+        </article>
+        <article class="card recognition-card">
+            <h3>Student Development</h3>
+            <p>
+                We encourage respect, leadership, teamwork, creativity
+                and responsible behaviour.
+            </p>
+        </article>
+        <article class="card recognition-card">
+            <h3>School Standards</h3>
+            <p>
+                Our goal is to maintain a safe, supportive and organised
+                environment for teaching and learning.
+            </p>
+        </article>
+    </div>
+    <p class="small-note">
+        Replace this sample content with the school's verified awards,
+        accreditation details and official recognition before publishing.
+    </p>
 </section>
-
-
-<!-- CONTACT -->
-<section id="contact">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span class="section-label">
-                CONTACT
-            </span>
-
-            <h2>
-                We'd love to hear from you.
-            </h2>
-
-            <p>
-                Questions about admissions, classes or the school?
-                Send us a message.
-            </p>
-
-        </div>
-
-
-        <div class="contact">
-
-            <div class="contact-information">
-
-                <h3>
-                    School Information
-                </h3>
-
-                <div class="contact-item">
-                    <span>📍</span>
-
-                    <div>
-                        <strong>Address</strong>
-                        <p>
-                            12 Greenfield Avenue,
-                            Port Harcourt, Rivers State
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="contact-item">
-                    <span>📞</span>
-
-                    <div>
-                        <strong>Phone</strong>
-                        <p>
-                            +234 800 000 0000
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="contact-item">
-                    <span>✉️</span>
-
-                    <div>
-                        <strong>Email</strong>
-                        <p>
-                            info@greenfieldschool.edu.ng
-                        </p>
-                    </div>
-                </div>
-
-
-                <div class="contact-item">
-                    <span>🕘</span>
-
-                    <div>
-                        <strong>Office Hours</strong>
-                        <p>
-                            Monday – Friday,
-                            8:00am – 4:00pm
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <form id="contactForm">
-
-                <div class="form-grid">
-
-                    <input
-                        type="text"
-                        placeholder="Parent / Guardian Name"
-                        required>
-
-                    <input
-                        type="email"
-                        placeholder="Email Address"
-                        required>
-
-                </div>
-
-
-                <div class="form-grid">
-
-                    <input
-                        type="tel"
-                        placeholder="Phone Number">
-
-                    <input
-                        type="text"
-                        placeholder="Student's Class">
-
-                </div>
-
-
-                <textarea
-                    placeholder="How can we help you?"
-                    required></textarea>
-
-
-                <button
-                    type="submit"
-                    class="submit-button">
-                    Send Enquiry
-                </button>
-
-            </form>
-
-        </div>
-
+<section class="admission-banner">
+    <div>
+        <span class="eyebrow">TAKE THE NEXT STEP</span>
+        <h2>Give Your Child a Strong Start</h2>
+        <p>Contact our admissions team to enquire about available places.</p>
     </div>
-
+    <a href="admission.html" class="button button-light">Start an Application</a>
 </section>
-
-
-<!-- FOOTER -->
-<footer>
-
-    <div class="container footer-grid">
-
-        <div>
-
-            <h3>
-                Greenfield International School
-            </h3>
-
-            <p>
-                Building character. Inspiring excellence.
-                Shaping the future.
-            </p>
-
-        </div>
-
-
-        <div>
-
-            <h3>
-                Explore
-            </h3>
-
-            <a href="#about">About Us</a>
-            <a href="#academics">Academics</a>
-            <a href="#admissions">Admissions</a>
-
-        </div>
-
-
-        <div>
-
-            <h3>
-                Resources
-            </h3>
-
-            <a href="#contact">Contact Us</a>
-            <a href="#admissions">Admission Guide</a>
-
-        </div>
-
-
-        <div>
-
-            <h3>
-                Contact
-            </h3>
-
-            <p>
-                Port Harcourt, Rivers State
-            </p>
-
-            <p>
-                +234 800 000 0000
-            </p>
-
-        </div>
-
+</main>
+<footer class="site-footer">
+    <h3>GREENFIELD SCHOOL</h3>
+    <p>Knowledge • Character • Excellence</p>
+    <p>Quality learning. Bright futures.</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="school.html">Our School</a>
+        <a href="admission.html">Admissions</a>
     </div>
-
-
-    <div class="copyright">
-        © 2026 Greenfield International School.
-        All Rights Reserved.
-    </div>
-
+    <p class="copyright">&copy; <span id="year"></span> Greenfield School. All rights reserved.</p>
 </footer>
-
-
 <script src="script.js"></script>
-
 </body>
 </html>
